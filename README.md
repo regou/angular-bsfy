@@ -1,4 +1,4 @@
-angular-browserify
+angular-bsfy
 ==================
 A more elegant [Angular JS](http://angularjs.org/) [Browserify](http://browserify.org/) package,and always up to date
 
