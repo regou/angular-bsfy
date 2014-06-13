@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-scenario");
+module.exports = require("./lib/angular-animate");
