@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-mocks");
+module.exports = require("./lib/min/angular-mocks");

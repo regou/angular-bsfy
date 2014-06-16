@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-route");
+module.exports = require("./lib/min/angular-route");

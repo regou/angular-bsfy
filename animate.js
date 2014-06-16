@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-animate");
+module.exports = require("./lib/min/angular-animate");

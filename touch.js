@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-touch");
+module.exports = require("./lib/min/angular-touch");
