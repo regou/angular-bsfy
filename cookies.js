@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-cookies");
+module.exports = require("./lib/min/angular-cookies");

@@ -1,1 +1,1 @@
-module.exports = require("./lib/angular-sanitize");
+module.exports = require("./lib/min/angular-sanitize");
