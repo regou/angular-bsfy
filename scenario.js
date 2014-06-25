@@ -1,1 +1,1 @@
-module.exports = require("./lib/in/angular-scenario");
+module.exports = require("./lib/min/angular-scenario");
