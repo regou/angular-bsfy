@@ -1,6 +1,6 @@
 node_modules
 test/test_browserified.js
-~/.idea
+.idea/
 
 lib-cov
 *.seed
