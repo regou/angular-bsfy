@@ -1,1 +1,2 @@
-module.exports = require("./lib/min/angular-resource");
+require("./lib/min/angular-resource");
+module.exports = angular.module('ngResource');

@@ -1,1 +1,2 @@
-module.exports = require("./lib/min/angular-touch");
+require("./lib/min/angular-touch");
+module.exports = angular.module('ngTouch');
