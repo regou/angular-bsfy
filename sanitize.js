@@ -1,2 +1,2 @@
-require("./lib/min/angular-sanitize");
+require("./lib/angular-sanitize.min");
 module.exports = angular.module('ngSanitize');

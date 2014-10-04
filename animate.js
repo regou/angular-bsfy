@@ -1,2 +1,2 @@
-require("./lib/min/angular-animate");
+require("./lib/angular-animate.min");
 module.exports = angular.module('ngAnimate');

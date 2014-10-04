@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                 sourceMap: true
             },
             files: {
-                src: 'lib/**/*.js',  // source files mask
+                src: 'lib/*.js',  // source files mask
                 dest: 'lib/min/',    // destination folder
                 expand: true,    // allow dynamic building
                 flatten: true   // remove all unnecessary nesting

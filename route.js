@@ -1,2 +1,2 @@
-require("./lib/min/angular-route");
+require("./lib/angular-route.min");
 module.exports = angular.module('ngRoute');
