@@ -1,1 +1,1 @@
-module.exports = require("./lib/min/angular-loader");
+module.exports = require("./lib/angular-loader.min");
