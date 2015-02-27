@@ -4,7 +4,7 @@ A more elegant [Angular JS](http://angularjs.org/) [Browserify](http://browserif
 
 Current angular.js version : `1.3.14`
 
-	`$ npm install angular-bsfy --save-dev`
+`$ npm install angular-bsfy --save-dev`
 
 	var angular = require('angular-bsfy');
 	var ngAnimate = require('angular-bsfy/animate');
