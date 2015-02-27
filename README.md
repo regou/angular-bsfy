@@ -2,7 +2,7 @@ angular-bsfy
 ==================
 A more elegant [Angular JS](http://angularjs.org/) [Browserify](http://browserify.org/) package,and always up to date
 
-Current angular.js version : `1.3.12`
+Current angular.js version : `1.3.13`
 
 
 	var angular = require('angular-bsfy');
