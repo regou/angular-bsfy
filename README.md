@@ -2,9 +2,9 @@ angular-bsfy
 ==================
 A more elegant [Angular JS](http://angularjs.org/) [Browserify](http://browserify.org/) package,and always up to date
 
-Current angular.js version : `1.4.1`
+Current angular.js version : `1.4.2`
 
-`$ npm install angular-bsfy --save-dev`
+`$ npm install angular-bsfy --save`
 
 	var angular = require('angular-bsfy');
 
