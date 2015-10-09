@@ -1,6 +1,8 @@
 {
   "name": "angular-bsfy",
-  "version": "1.4.4",
+  "version": "1.4.5",
+  "release": true,
+  "changelog": false,
   "description": "An elegant angular-browserify,and will always up to date",
   "main": "index.js",
   "devDependencies": {
