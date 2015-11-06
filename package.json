@@ -18,7 +18,7 @@
     "browserify"
   ],
   "author": "Regou <admin@regou.me> (https://github.com/regou/)",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/regou/angular-bsfy/issues"
   }
