@@ -5,8 +5,14 @@
   "changelog": false,
   "description": "An elegant angular-browserify,and will always up to date",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha build-test.js",
+    "postinstall": "node build.js"
+  },
   "devDependencies": {
-    "browserify": "*"
+    "mocha": "^2.4.5",
+    "mocha-jsdom": "^1.1.0",
+    "should": "^8.3.1"
   },
   "repository": {
     "type": "git",
@@ -21,5 +27,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/regou/angular-bsfy/issues"
+  },
+  "dependencies": {
+    "file-appender": "1.1.0"
   }
 }
