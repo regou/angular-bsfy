@@ -1,9 +1,9 @@
 var should = require('should/as-function');
-var jsdom = require('mocha-jsdom')
+var jsdom = require('mocha-jsdom');
 
 describe('angular-bsfy', function () {
 
-	jsdom()
+	jsdom();
 
 
 	it('animate working', function () {
