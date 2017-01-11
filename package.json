@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git@github.com:regou/angular-bsfy.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [
     "Angular",
     "angularjs",
