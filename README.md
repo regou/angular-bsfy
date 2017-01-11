@@ -5,7 +5,7 @@ angular-bsfy
 
 A more elegant [AngularJS](http://angularjs.org/) [Browserify](http://browserify.org/) package,and always up to date
 
-Current angular.js version : `1.5.8` [ChangeLog](https://github.com/angular/angular.js/blob/master/CHANGELOG.md)
+Current angular.js version : `1.5.9` [ChangeLog](https://github.com/angular/angular.js/blob/master/CHANGELOG.md)
 
 `$ npm install angular-bsfy --save`
 
