@@ -6,6 +6,11 @@ describe('angular-bsfy', function () {
 	jsdom();
 
 
+	it('main version match', function () {
+		var angular = require('./index.js');
+		should(angular.version.full).be.exactly(require('./package.json').version);
+	});
+
 	it('animate working', function () {
 		var name = require('./animate.js').name;
 		 should(name).be.exactly('ngAnimate');
