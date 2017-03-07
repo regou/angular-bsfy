@@ -1,3 +1,3 @@
-var angular = require("./angular_append");
+var angular = require("./angular");
 
 module.exports = angular;
