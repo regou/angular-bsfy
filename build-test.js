@@ -1,3 +1,4 @@
+'use strict';
 var should = require('should/as-function');
 var jsdom = require('mocha-jsdom');
 
@@ -5,30 +6,42 @@ describe('angular-bsfy', function () {
 
 	jsdom();
 
+	function getModuleInfo (md){
+		return {
+			ngv:md.info().angularVersion,
+			name:md.name
+		}
+	}
+
+	const v = require('./package.json').version;
 
 	it('main version match', function () {
 		var angular = require('./index.js');
-		should(angular.version.full).be.exactly(require('./package.json').version);
+		should(angular.version.full).be.exactly(v);
 	});
 
 	it('animate working', function () {
-		var name = require('./animate.js').name;
-		 should(name).be.exactly('ngAnimate');
+		var info = getModuleInfo(require('./animate.js'));
+		should(info.name).be.exactly('ngAnimate');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('aria working', function () {
-		var name = require('./aria.js').name;
-		should(name).be.exactly('ngAria');
+		var info = getModuleInfo(require('./aria.js'));
+		should(info.name).be.exactly('ngAria');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('cookies working', function () {
-		var name = require('./cookies.js').name;
-		should(name).be.exactly('ngCookies');
+		var info = getModuleInfo(require('./cookies.js'));
+		should(info.name).be.exactly('ngCookies');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('message-format working', function () {
-		var name = require('./message-format.js').name;
-		should(name).be.exactly('ngMessageFormat');
+		var info = getModuleInfo(require('./message-format.js'));
+		should(info.name).be.exactly('ngMessageFormat');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('messages working', function () {
@@ -37,33 +50,33 @@ describe('angular-bsfy', function () {
 	});
 
 	it('messages working', function () {
-		var name = require('./messages.js').name;
-		should(name).be.exactly('ngMessages');
+		var info = getModuleInfo(require('./messages.js'));
+		should(info.name).be.exactly('ngMessages');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('parse-ext working', function () {
-		var name = require('./parse-ext.js').name;
-		should(name).be.exactly('ngParseExt');
+		var info = getModuleInfo(require('./parse-ext.js'));
+		should(info.name).be.exactly('ngParseExt');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('resource working', function () {
-		var name = require('./resource.js').name;
-		should(name).be.exactly('ngResource');
+		var info = getModuleInfo(require('./resource.js'));
+		should(info.name).be.exactly('ngResource');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('route working', function () {
-		var name = require('./route.js').name;
-		should(name).be.exactly('ngRoute');
+		var info = getModuleInfo(require('./route.js'));
+		should(info.name).be.exactly('ngRoute');
+		should(info.ngv).be.exactly(v);
 	});
 
 	it('sanitize working', function () {
-		var name = require('./sanitize.js').name;
-		should(name).be.exactly('ngSanitize');
-	});
-
-	it('sanitize working', function () {
-		var name = require('./sanitize.js').name;
-		should(name).be.exactly('ngSanitize');
+		var info = getModuleInfo(require('./sanitize.js'));
+		should(info.name).be.exactly('ngSanitize');
+		should(info.ngv).be.exactly(v);
 	});
 	
 	it('mocks working', function () {

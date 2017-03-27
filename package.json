@@ -1,12 +1,12 @@
 {
   "name": "angular-bsfy",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "release": true,
   "changelog": false,
   "description": "An elegant angular-browserify,and will always up to date",
   "main": "index.js",
   "scripts": {
-    "test": "mocha build-test.js",
+    "test": "npm run postinstall;mocha build-test.js",
     "postinstall": "node build.js"
   },
   "devDependencies": {
